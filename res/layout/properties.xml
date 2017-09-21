@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/radiustxt2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unit of measure"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF" />
+
+    <RadioGroup
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/measure"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/radiometr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Κilometers"
+            android:textColor="#FFF" />
+
+        <RadioButton
+            android:id="@+id/radiomil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Miles"
+            android:textColor="#FFF" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/setlang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select language"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF" />
+
+    <RadioGroup
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/lang"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/langen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="English"
+            android:textColor="#FFF" />
+
+        <RadioButton
+            android:id="@+id/langgr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Greek"
+            android:textColor="#FFF" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/radiustxt"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:text="Set Radius"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF" />
+
+    <TextView
+        android:id="@+id/radiustxt2"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:text="Only for new Search!"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#a45"
+        android:textColorHint="#FFF" 
+         android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/radius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Type a radius" 
+      android:textColorHint="#FFF"
+      android:textColor="#FFF"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="305dp"
+        android:layout_height="63dp"
+        android:layout_weight="0.00"
+        android:text="Confirm"
+        android:textColor="#FFF" />
+
+</LinearLayout>

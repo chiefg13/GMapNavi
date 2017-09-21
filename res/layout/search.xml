@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/aaa"
+   
+    android:orientation="vertical">
+
+    
+    
+  <EditText
+      android:id="@+id/tx"
+      android:layout_width="317dp"
+      android:layout_height="wrap_content"
+      android:hint="Type a query" 
+      android:textColorHint="#FFF"
+      android:textColor="#FFF"/>
+  
+  <Button
+      android:id="@+id/btt"
+      android:layout_width="154dp"
+      android:layout_height="wrap_content"
+      android:text="@string/Send" />
+  
+  </LinearLayout>

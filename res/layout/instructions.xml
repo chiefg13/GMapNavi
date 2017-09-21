@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFF"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/start"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:hint="Type starting point"
+        android:textSize="15dp"
+        android:textColor="#000"
+        android:textColorHint="#000" />
+
+    <EditText
+        android:id="@+id/end"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:hint="Type ending point"
+        android:textSize="15dp"
+        android:textColor="#000"
+        android:textColorHint="#000" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Travel Option"
+        android:textColor="#000"
+        android:textSize="28dp" />
+ 
+    
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+       
+    
+    <RadioButton
+        android:id="@+id/radioButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:drawableRight="@drawable/dodge_viper2"
+        android:text="Car" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/bicycle"
+        android:text="Bicycle" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/man"
+        android:text="Walk" />
+
+</RadioGroup>
+
+    <Button
+        android:id="@+id/gpssend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go" />
+
+</LinearLayout>

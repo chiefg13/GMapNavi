@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" > Intent myIntent = new Intent(view.getContext(), Search.class);
+                startActivityForResult(myIntent, 0); Intent myIntent = new Intent(view.getContext(), Search.class);
+                startActivityForResult(myIntent, 0);
+    <group android:id="@+id/group1">
+        <item android:id="@+id/item1" android:title="Search Location"></item>
+        <item android:id="@+id/item2" android:title="Clear map"></item>
+        <item android:id="@+id/item3" android:title="Properties"></item>
+    </group>
+    
+
+</menu>
